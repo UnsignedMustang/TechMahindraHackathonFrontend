@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "10.16"
+  - "10"
 
 branches:
   only:
@@ -16,4 +16,3 @@ before_script:
 
 script:
   - ng build --prod
-T
