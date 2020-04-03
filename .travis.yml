@@ -12,17 +12,8 @@ cache:
 
 before_script:
   - npm install -g @angular/cli
- 
-install:
   - npm install
 
 script:
   - ng build --prod
-
-notifications:
-  email:
-    recipients:
-      - luka.krnjaic@gmail.com
-    on_failure: always
-    on_success: always
 T
